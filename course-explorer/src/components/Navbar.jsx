@@ -3,8 +3,8 @@ import React from "react";
 const Navbar = () => {
     return(
         <div>
-            <nav>
-                <h1>Top Courses</h1>
+            <nav className="bg-bgDark py-4 shadow-lg">
+                <h1 className="text-white text-3xl font-bold text-center">Top Courses</h1>
             </nav>
         </div>
     )
